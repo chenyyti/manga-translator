@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "source": "project",
+  "required": [
+    "ocr/mangaocr",
+    "ocr/paddlex/official_models/korean_PP-OCRv5_mobile_rec_onnx",
+    "ocr/paddlex/official_models/en_PP-OCRv5_mobile_rec_onnx",
+    "inpainting/big-lama.pt"
+  ],
+  "files": [
+    {
+      "path": "ocr/mangaocr/.gitattributes",
+      "size": 1175,
+      "sha256": "fa057bb09b78fe6d33af5a01440be5e8c881cd8055de35ee5588ea759cf57bfc"
+    },
+    {
+      "path": "ocr/mangaocr/.ready.json",
+      "size": 124,
+      "sha256": "d996f7b2b0f14beb64ab8f2dfd7661d39fd789961839546a5b7cd02e329e0cb5"
+    },
+    {
+      "path": "ocr/mangaocr/config.json",
+      "size": 77546,
+      "sha256": "8c0e395de8fa699daaac21aee33a4ba9bd1309cfbff03147813d2a025f39f349"
+    },
+    {
+      "path": "ocr/mangaocr/preprocessor_config.json",
+      "size": 228,
+      "sha256": "af4eb4d79cf61b47010fc0bc9352ee967579c417423b4917188d809b7e048948"
+    },
+    {
+      "path": "ocr/mangaocr/pytorch_model.bin",
+      "size": 444135475,
+      "sha256": "c63e0bb5b3ff798c5991de18a8e0956c7ee6d1563aca6729029815eda6f5c2eb"
+    },
+    {
+      "path": "ocr/mangaocr/README.md",
+      "size": 705,
+      "sha256": "32f413afcc4295151e77d25202c5c5d81ef621b46f947da1c3bde13256dc0d5f"
+    },
+    {
+      "path": "ocr/mangaocr/special_tokens_map.json",
+      "size": 112,
+      "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3"
+    },
+    {
+      "path": "ocr/mangaocr/tokenizer_config.json",
+      "size": 486,
+      "sha256": "d775ad1deac162dc56b84e9b8638f95ed8a1f263d0f56f4f40834e26e205e266"
+    },
+    {
+      "path": "ocr/mangaocr/vocab.txt",
+      "size": 24072,
+      "sha256": "344fbb6b8bf18c57839e924e2c9365434697e0227fac00b88bb4899b78aa594d"
+    },
+    {
+      "path": "ocr/paddlex/official_models/en_PP-OCRv5_mobile_rec_onnx/.gitattributes",
+      "size": 1519,
+      "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361"
+    },
+    {
+      "path": "ocr/paddlex/official_models/en_PP-OCRv5_mobile_rec_onnx/.ready.json",
+      "size": 123,
+      "sha256": "c0059a75a1c6e361a0decda24ac7f236e65cd2655b8c4a0697c44006447ca944"
+    },
+    {
+      "path": "ocr/paddlex/official_models/en_PP-OCRv5_mobile_rec_onnx/inference.onnx",
+      "size": 7848423,
+      "sha256": "b5f833dfc5d0eb71da397b4efa06ebeee9b431b690a47d6af40d77d8eabc557f"
+    },
+    {
+      "path": "ocr/paddlex/official_models/en_PP-OCRv5_mobile_rec_onnx/inference.yml",
+      "size": 3964,
+      "sha256": "27e91d0582f40168aa218303c76e184bc78fa7a5d105aad0cfbad8458b441067"
+    },
+    {
+      "path": "ocr/paddlex/official_models/en_PP-OCRv5_mobile_rec_onnx/README.md",
+      "size": 28,
+      "sha256": "98b45ea81164d1e1a1dd82255207053b15cd6c69d922a1c5cf3387ce604d4b74"
+    },
+    {
+      "path": "ocr/paddlex/official_models/korean_PP-OCRv5_mobile_rec_onnx/.gitattributes",
+      "size": 1519,
+      "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361"
+    },
+    {
+      "path": "ocr/paddlex/official_models/korean_PP-OCRv5_mobile_rec_onnx/.ready.json",
+      "size": 127,
+      "sha256": "81a3493afd6320636e946e35ec41ae7f1b5b1cd810f40f368a4b4f4b224f8284"
+    },
+    {
+      "path": "ocr/paddlex/official_models/korean_PP-OCRv5_mobile_rec_onnx/inference.onnx",
+      "size": 13418787,
+      "sha256": "92f0b7785e64fc9090106a241cf4c1eb97472824558272751b88a2a4476d3a08"
+    },
+    {
+      "path": "ocr/paddlex/official_models/korean_PP-OCRv5_mobile_rec_onnx/inference.yml",
+      "size": 96039,
+      "sha256": "f757fa1c40e99edcf27e9cce879b93eb2a51fa46f5ef39095689b8c37dd75998"
+    },
+    {
+      "path": "ocr/paddlex/official_models/korean_PP-OCRv5_mobile_rec_onnx/README.md",
+      "size": 28,
+      "sha256": "98b45ea81164d1e1a1dd82255207053b15cd6c69d922a1c5cf3387ce604d4b74"
+    },
+    {
+      "path": "inpainting/.ready.json",
+      "size": 321,
+      "sha256": "fc6b8f1f4ac3f65eb2200560e281bce6b7eeff04e14d28c60bc7687b9474f06f"
+    },
+    {
+      "path": "inpainting/big-lama.pt",
+      "size": 205669692,
+      "sha256": "344c77bbcb158f17dd143070d1e789f38a66c04202311ae3a258ef66667a9ea9"
+    }
+  ]
+}

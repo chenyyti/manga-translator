@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "manga-translator-backend"
+version = "0.9.0"
+description = "Local backend for the manga translation workspace"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "aiosqlite>=0.20,<1",
+  "alembic>=1.14,<2",
+  "fastapi>=0.115,<1",
+  "httpx>=0.28,<1",
+  "keyring>=25,<26",
+  "pillow>=11,<13",
+  "platformdirs>=4.3,<5",
+  "pydantic-settings>=2.7,<3",
+  "python-multipart>=0.0.20,<1",
+  "sqlalchemy[asyncio]>=2.0.36,<3",
+  "uvicorn[standard]>=0.34,<1",
+]
+
+[project.optional-dependencies]
+detection = [
+  "ultralytics==8.4.147",
+]
+ocr = [
+  "huggingface-hub>=0.28,<2",
+  "manga-ocr==0.1.16",
+  "paddleocr==3.7.0",
+]
+rendering = [
+  "numpy>=1.26,<3",
+  "opencv-python-headless>=4.10,<5",
+]
+dev = [
+  "httpx>=0.28,<1",
+  "pytest>=8.3,<9",
+  "pytest-asyncio>=0.25,<1",
+  "ruff>=0.9,<1",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["app*"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+addopts = "-p no:cacheprovider"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["app", "tests"]

@@ -1,0 +1,5 @@
+{
+  "provider": "mangaocr",
+  "model": "kha-white/manga-ocr-base",
+  "prepared_at": "2026-09-15T11:17:54.017445+00:00"
+}

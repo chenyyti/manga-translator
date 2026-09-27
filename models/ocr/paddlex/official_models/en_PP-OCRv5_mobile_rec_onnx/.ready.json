@@ -1,0 +1,5 @@
+{
+  "provider": "paddleocr",
+  "model": "en_PP-OCRv5_mobile_rec",
+  "prepared_at": "2026-09-15T11:18:02.198472+00:00"
+}

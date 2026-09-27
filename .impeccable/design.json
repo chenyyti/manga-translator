@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-23T16:18:50Z",
+  "title": "Design System: 漫画智能翻译",
+  "extensions": {
+    "colorMeta": {
+      "ink": {"role":"neutral","displayName":"深墨","tonalRamp":["oklch(15% 0.024 228.3)","oklch(26% 0.024 228.3)","oklch(38% 0.024 228.3)","oklch(49% 0.024 228.3)","oklch(60% 0.024 228.3)","oklch(72% 0.024 228.3)","oklch(84% 0.024 228.3)","oklch(95% 0.024 228.3)"]},
+      "muted": {"role":"neutral","displayName":"旁注灰","tonalRamp":["oklch(15% 0.024 224.7)","oklch(26% 0.024 224.7)","oklch(38% 0.024 224.7)","oklch(49% 0.024 224.7)","oklch(60% 0.024 224.7)","oklch(72% 0.024 224.7)","oklch(84% 0.024 224.7)","oklch(95% 0.024 224.7)"]},
+      "paper": {"role":"neutral","displayName":"纸面","tonalRamp":["oklch(15% 0.007 88.6)","oklch(26% 0.007 88.6)","oklch(38% 0.007 88.6)","oklch(49% 0.007 88.6)","oklch(60% 0.007 88.6)","oklch(72% 0.007 88.6)","oklch(84% 0.007 88.6)","oklch(95% 0.007 88.6)"]},
+      "canvas": {"role":"neutral","displayName":"桌面","tonalRamp":["oklch(15% 0.010 87.5)","oklch(26% 0.010 87.5)","oklch(38% 0.010 87.5)","oklch(49% 0.010 87.5)","oklch(60% 0.010 87.5)","oklch(72% 0.010 87.5)","oklch(84% 0.010 87.5)","oklch(95% 0.010 87.5)"]},
+      "line": {"role":"neutral","displayName":"细线","tonalRamp":["oklch(15% 0.010 113.2)","oklch(26% 0.010 113.2)","oklch(38% 0.010 113.2)","oklch(49% 0.010 113.2)","oklch(60% 0.010 113.2)","oklch(72% 0.010 113.2)","oklch(84% 0.010 113.2)","oklch(95% 0.010 113.2)"]},
+      "line-strong": {"role":"neutral","displayName":"强调线","tonalRamp":["oklch(15% 0.016 218.1)","oklch(26% 0.016 218.1)","oklch(38% 0.016 218.1)","oklch(49% 0.016 218.1)","oklch(60% 0.016 218.1)","oklch(72% 0.016 218.1)","oklch(84% 0.016 218.1)","oklch(95% 0.016 218.1)"]},
+      "accent": {"role":"primary","displayName":"编辑蓝","tonalRamp":["oklch(15% 0.071 232.1)","oklch(26% 0.071 232.1)","oklch(38% 0.071 232.1)","oklch(49% 0.071 232.1)","oklch(60% 0.071 232.1)","oklch(72% 0.071 232.1)","oklch(84% 0.071 232.1)","oklch(95% 0.071 232.1)"]},
+      "accent-dark": {"role":"primary","displayName":"深编辑蓝","tonalRamp":["oklch(15% 0.065 234.6)","oklch(26% 0.065 234.6)","oklch(38% 0.065 234.6)","oklch(49% 0.065 234.6)","oklch(60% 0.065 234.6)","oklch(72% 0.065 234.6)","oklch(84% 0.065 234.6)","oklch(95% 0.065 234.6)"]},
+      "proof": {"role":"secondary","displayName":"校对朱红","tonalRamp":["oklch(15% 0.134 30.2)","oklch(26% 0.134 30.2)","oklch(38% 0.134 30.2)","oklch(49% 0.134 30.2)","oklch(60% 0.134 30.2)","oklch(72% 0.134 30.2)","oklch(84% 0.134 30.2)","oklch(95% 0.134 30.2)"]},
+      "success": {"role":"status","displayName":"成功绿","tonalRamp":["oklch(15% 0.077 167.0)","oklch(26% 0.077 167.0)","oklch(38% 0.077 167.0)","oklch(49% 0.077 167.0)","oklch(60% 0.077 167.0)","oklch(72% 0.077 167.0)","oklch(84% 0.077 167.0)","oklch(95% 0.077 167.0)"]},
+      "warning": {"role":"status","displayName":"警示棕","tonalRamp":["oklch(15% 0.098 80.5)","oklch(26% 0.098 80.5)","oklch(38% 0.098 80.5)","oklch(49% 0.098 80.5)","oklch(60% 0.098 80.5)","oklch(72% 0.098 80.5)","oklch(84% 0.098 80.5)","oklch(95% 0.098 80.5)"]},
+      "danger": {"role":"status","displayName":"危险红","tonalRamp":["oklch(15% 0.137 25.5)","oklch(26% 0.137 25.5)","oklch(38% 0.137 25.5)","oklch(49% 0.137 25.5)","oklch(60% 0.137 25.5)","oklch(72% 0.137 25.5)","oklch(84% 0.137 25.5)","oklch(95% 0.137 25.5)"]},
+      "topbar": {"role":"neutral","displayName":"页眉纸色","tonalRamp":["oklch(15% 0.005 95.1)","oklch(26% 0.005 95.1)","oklch(38% 0.005 95.1)","oklch(49% 0.005 95.1)","oklch(60% 0.005 95.1)","oklch(72% 0.005 95.1)","oklch(84% 0.005 95.1)","oklch(95% 0.005 95.1)"]},
+      "selection": {"role":"primary","displayName":"文本选中底色","tonalRamp":["oklch(15% 0.027 226.8)","oklch(26% 0.027 226.8)","oklch(38% 0.027 226.8)","oklch(49% 0.027 226.8)","oklch(60% 0.027 226.8)","oklch(72% 0.027 226.8)","oklch(84% 0.027 226.8)","oklch(95% 0.027 226.8)"]},
+      "status-base": {"role":"neutral","displayName":"普通状态底色","tonalRamp":["oklch(15% 0.003 247.9)","oklch(26% 0.003 247.9)","oklch(38% 0.003 247.9)","oklch(49% 0.003 247.9)","oklch(60% 0.003 247.9)","oklch(72% 0.003 247.9)","oklch(84% 0.003 247.9)","oklch(95% 0.003 247.9)"]},
+      "status-success": {"role":"status","displayName":"成功状态底色","tonalRamp":["oklch(15% 0.014 169.2)","oklch(26% 0.014 169.2)","oklch(38% 0.014 169.2)","oklch(49% 0.014 169.2)","oklch(60% 0.014 169.2)","oklch(72% 0.014 169.2)","oklch(84% 0.014 169.2)","oklch(95% 0.014 169.2)"]},
+      "status-warning": {"role":"status","displayName":"警示状态底色","tonalRamp":["oklch(15% 0.027 78.2)","oklch(26% 0.027 78.2)","oklch(38% 0.027 78.2)","oklch(49% 0.027 78.2)","oklch(60% 0.027 78.2)","oklch(72% 0.027 78.2)","oklch(84% 0.027 78.2)","oklch(95% 0.027 78.2)"]},
+      "status-danger": {"role":"status","displayName":"危险状态底色","tonalRamp":["oklch(15% 0.020 25.2)","oklch(26% 0.020 25.2)","oklch(38% 0.020 25.2)","oklch(49% 0.020 25.2)","oklch(60% 0.020 25.2)","oklch(72% 0.020 25.2)","oklch(84% 0.020 25.2)","oklch(95% 0.020 25.2)"]}
+    },
+    "typographyMeta": {
+      "headline": { "displayName": "页面标题", "purpose": "页面和工作台主标题" },
+      "body": { "displayName": "正文", "purpose": "常规界面文字" },
+      "navigation": { "displayName": "导航", "purpose": "顶部主导航" },
+      "status": { "displayName": "状态", "purpose": "状态胶囊标签" }
+    },
+    "shadows": [
+      { "name": "project-card-hover", "value": "0 8px 22px rgb(35 50 57 / 9%)", "purpose": "项目卡片悬停或内部聚焦" },
+      { "name": "page-image", "value": "0 18px 50px rgb(0 0 0 / 32%)", "purpose": "暗色校对台中的页面图像" }
+    ],
+    "motion": [
+      { "name": "project-card-transition", "value": "160ms ease", "purpose": "卡片边框、位移与阴影变化" }
+    ],
+    "breakpoints": [
+      { "name": "mobile-navigation", "value": "900px" },
+      { "name": "comparison-switcher", "value": "767px" },
+      { "name": "compact-mobile", "value": "620px" },
+      { "name": "annotation-three-column", "value": "1200px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "主操作按钮",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "顶部新建项目等主操作；沿用 Element Plus 主色变量。",
+      "html": "<button class=\"ds-primary-button\" type=\"button\">新建项目</button>",
+      "css": ".ds-primary-button { min-height:42px; padding:0 20px; border:1px solid #285e78; border-radius:7px; background:#285e78; color:#fff; font:700 14px 'Segoe UI','Microsoft YaHei UI','Microsoft YaHei','PingFang SC',sans-serif; cursor:pointer; } .ds-primary-button:hover { background:#18475f; border-color:#18475f; } .ds-primary-button:focus-visible { outline:3px solid #417e9c; outline-offset:3px; }"
+    },
+    {
+      "name": "主导航项",
+      "kind": "nav",
+      "refersTo": "navigation-item-active",
+      "description": "当前页面用深墨文字和编辑蓝下划线标识。",
+      "html": "<button class=\"ds-nav-item ds-nav-active\" type=\"button\">我的书架</button>",
+      "css": ".ds-nav-item { position:relative; display:inline-flex; align-items:center; min-height:48px; padding:0 2px; border:0; background:transparent; color:#52636a; font:650 .9rem 'Segoe UI','Microsoft YaHei UI','Microsoft YaHei','PingFang SC',sans-serif; cursor:pointer; } .ds-nav-item::after { position:absolute; right:0; bottom:0; left:0; height:2px; background:#285e78; content:''; opacity:0; } .ds-nav-item:hover { color:#233239; } .ds-nav-active { color:#233239; } .ds-nav-active::after { opacity:1; } .ds-nav-item:focus-visible { outline:3px solid #417e9c; outline-offset:3px; }"
+    },
+    {
+      "name": "成功状态胶囊",
+      "kind": "chip",
+      "refersTo": "status-pill",
+      "description": "状态用文字、圆点和色彩共同表达。",
+      "html": "<span class=\"ds-status-pill\"><span class=\"ds-status-dot\" aria-hidden=\"true\"></span>已完成</span>",
+      "css": ".ds-status-pill { display:inline-flex; align-items:center; gap:7px; min-height:26px; padding:2px 10px; border-radius:999px; background:#e8f4ef; color:#286a53; font:700 .76rem 'Segoe UI','Microsoft YaHei UI','Microsoft YaHei','PingFang SC',sans-serif; } .ds-status-dot { width:6px; height:6px; border-radius:50%; background:currentColor; }"
+    },
+    {
+      "name": "项目卡片",
+      "kind": "card",
+      "refersTo": "project-card",
+      "description": "封面在左，状态和项目资料在右；悬停时轻微抬升。",
+      "html": "<article class=\"ds-project-card\" tabindex=\"0\"><div class=\"ds-project-cover\">漫</div><div class=\"ds-project-body\"><span class=\"ds-project-status\">已就绪</span><strong>漫画项目</strong><small>日文 → 简中 · 24 页</small></div></article>",
+      "css": ".ds-project-card { display:grid; height:138px; grid-template-columns:96px minmax(0,1fr); overflow:hidden; border:1px solid #d8d9d2; border-radius:12px; background:#fffdf8; color:#233239; font-family:'Segoe UI','Microsoft YaHei UI','Microsoft YaHei','PingFang SC',sans-serif; transition:border-color 160ms ease,transform 160ms ease,box-shadow 160ms ease; } .ds-project-card:hover,.ds-project-card:focus-within { border-color:#285e78; box-shadow:0 8px 22px rgb(35 50 57 / 9%); transform:translateY(-1px); } .ds-project-card:focus-visible { outline:3px solid #417e9c; outline-offset:3px; } .ds-project-cover { display:grid; place-items:center; border-right:1px solid #d8d9d2; background:#233239; color:#fff; font:800 3rem 'STKaiti','KaiTi',serif; } .ds-project-body { display:flex; flex-direction:column; align-items:flex-start; gap:6px; padding:12px 18px; } .ds-project-body strong { font-size:1.04rem; } .ds-project-body small { color:#52636a; font-size:.88rem; } .ds-project-status { padding:2px 10px; border-radius:999px; background:#e8f4ef; color:#286a53; font-size:.76rem; font-weight:700; }"
+    },
+    {
+      "name": "来源模式选项",
+      "kind": "custom",
+      "refersTo": "source-mode",
+      "description": "创建项目时的可选卡片，选中态以蓝色边框和内描边表示。",
+      "html": "<button class=\"ds-source-mode ds-selected\" type=\"button\"><strong>文件夹</strong><span>从本地目录导入页面</span></button>",
+      "css": ".ds-source-mode { display:flex; min-height:118px; flex-direction:column; align-items:flex-start; justify-content:center; gap:6px; padding:16px; border:1px solid #d8d9d2; border-radius:9px; background:#fff; color:#233239; font-family:'Segoe UI','Microsoft YaHei UI','Microsoft YaHei','PingFang SC',sans-serif; text-align:left; cursor:pointer; transition:140ms ease; } .ds-source-mode strong { font-size:.9rem; } .ds-source-mode span { color:#52636a; font-size:.76rem; } .ds-source-mode:hover,.ds-source-mode.ds-selected { border-color:#285e78; box-shadow:inset 0 0 0 1px #285e78; } .ds-source-mode:focus-visible { outline:3px solid #417e9c; outline-offset:3px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "出版编辑台",
+    "overview": "界面像一张正在校对的工作桌：暖白纸面承载项目资料，深墨色让中文信息清楚可读，蓝色指出当前操作与焦点，朱红色提示需要核对的内容。真正的漫画封面、缩略图和成品图是视觉主角。\n\n这是供 Windows 本地浏览器长期使用的制作工作台。页面标题直接进入内容，任务状态和可执行动作靠近素材出现；视觉秩序服务于逐页检查和完成制作。字体使用系统和本机中文后备栈，运行时不依赖远程字体或装饰素材。",
+    "keyCharacteristics": [
+      "暖纸底、深墨字、克制的编辑蓝与朱红校对提示。",
+      "标题采用宋体后备栈，正文采用本机无衬线后备栈。",
+      "静态卡片主要靠边线和底色分层，交互时才轻微抬升。",
+      "漫画图像优先；处理状态同时用文字、形状和颜色表达。"
+    ],
+    "rules": [],
+    "dos": [
+      "Do 让真实漫画封面、缩略图和成品图占据视觉重点。",
+      "Do 用编辑蓝标记当前动作、选中边框和焦点。",
+      "Do 在状态颜色旁保留明确中文标签，并把错误原因放在操作附近。",
+      "Do 使用本机字体后备栈和已有的 CSS 变量。"
+    ],
+    "donts": [
+      "Don't 以远程运行时字体或装饰素材建立页面识别度。",
+      "Don't 只靠颜色传达处理结果、失败或不可逆操作。",
+      "Don't 用大段功能介绍挤走首屏的内容和当前动作。"
+    ]
+  }
+}
